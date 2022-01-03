@@ -3,19 +3,23 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
 }
 .headline{
     color: limegreen;
 }
-
+.flex{
+display: flex;
+margin-bottom: 50px;
+}
 .intro-banner{
- display: flex;
  background-image: url(images/intro-banner.png);
  background-repeat: no-repeat;
  border: 5px solid limegreen;
  border-radius: 5px;
- margin-bottom: 50px;
  padding: 50px;
 }
 .half-width{
@@ -34,12 +38,36 @@ h1{
     border-radius: 5px;
 }
 .my-blog{
-    display: flex;
  background-image: url(images/my-blog-bg.png);
  background-repeat: no-repeat;
  background-position: right;
- border: 10px solid limegreen;
+ border: 5px solid limegreen;
  border-radius: 5px;
- margin-bottom: 50px;
  padding: 50px;
+}
+.experience-area{
+width: 100%;
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(green,yellow);
+    border-image-slice: 1;
+}
+#baby-web{
+   border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
