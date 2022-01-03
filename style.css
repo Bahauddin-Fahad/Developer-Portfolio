@@ -13,8 +13,10 @@ h1{
  display: flex;
  background-image: url(images/intro-banner.png);
  background-repeat: no-repeat;
- border: 10px solid limegreen;
+ border: 5px solid limegreen;
  border-radius: 5px;
+ margin-bottom: 50px;
+ padding: 50px;
 }
 .half-width{
  width: 50%;
@@ -30,4 +32,14 @@ h1{
     background-image: radial-gradient(limegreen, black);
     padding: 10px 40px;
     border-radius: 5px;
+}
+.my-blog{
+    display: flex;
+ background-image: url(images/my-blog-bg.png);
+ background-repeat: no-repeat;
+ background-position: right;
+ border: 10px solid limegreen;
+ border-radius: 5px;
+ margin-bottom: 50px;
+ padding: 50px;
 }
